@@ -19,10 +19,14 @@ $(document).ready(function(){
     data: {
     labels: years,
     datasets: [
-      { 
-        data: africa
-      }
-    ]
-  }
-});
+        { 
+          data: africa
+        }
+      ]
+    }
+  });
+
+  $('input:first').focus();
+
+
 });
