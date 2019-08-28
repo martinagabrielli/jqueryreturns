@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+}
+
+body .wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+body .wrapper h1 {
+  font-weight: 200;
+  font-size: 3em;
+  margin: 0 0 0.1em 0;
+}
+
+body .wrapper h3 {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 0 0 50px;
+  color: #999;
+}
+
+body a {
+  margin-top: 50px;
+  display: block;
+  color: #3e95cd;
+}
+/*# sourceMappingURL=style.css.map */
