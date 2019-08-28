@@ -4,9 +4,10 @@ $(document).ready(function(){
     // // visualize plug in
     // $('table').visualize({type:'bar'});
 
-    // Our labels along the x-axis
+    // chart.js library
+    // our labels along the x-axis
     var years = [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050];
-    // For drawing the lines
+    // for drawing the lines
     var africa = [86,114,106,106,107,111,133,221,783,2478];
     var asia = [282,350,411,502,635,809,947,1402,3700,5267];
     var europe = [168,170,178,190,203,276,408,547,675,734];
@@ -26,7 +27,11 @@ $(document).ready(function(){
     }
   });
 
+  // focusing on an input box after page load
   $('input:first').focus();
 
+  // disabling and enabling form elements
+  // disabled or enabled
+  $("#name-input").attr("disabled", "false");
 
 });
